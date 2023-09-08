@@ -1,0 +1,93 @@
+body{
+    padding: 20px;
+  }
+
+  /* Slides */
+  .Slides{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Slides h1{
+    font-size: 3rem;
+  }
+  .Slides h4{
+    font-size: 2rem;
+  }
+  .container1-slides{
+    height: 80vh;
+    background-image: url(images/cofee1.jpg);
+    background-size: cover;
+    padding: 20px;
+    padding-top: 50px;
+  }
+  .container2-slides{
+    height: 80vh;
+    background-image: url(images/cofee2.jpg);
+    background-size: cover;
+    padding: 20px;
+    padding-top: 50px;
+  }
+  .btn1{
+    background-color: black;
+    color: white;
+  }
+  /* Slides end */
+
+
+  /* category */
+.category{
+    padding: 10px;
+}
+  .category1{
+    height: 300px;
+    background-image: url(images/fruits.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+  }
+
+  .category2{
+    border-radius: 20px;
+    height: 300px;
+    text-align: left;
+    background-image: url(images/buns.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 2.5rem;
+  }
+.category h2{
+    font-size: 2.5rem;
+}
+.category p{
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+    .category1{
+       margin-right: 250px;
+      }   
+}
+  /* category ends */
+
+
+
+  /* CARDS */
+.card{
+    margin-bottom: 30px;
+}
+.btn2{
+    background-color: #33b249;
+    color: white;
+    margin-left: 70px;
+}
+.grey{
+    color: grey;
+}
+  /* CARD ENDS */
