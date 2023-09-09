@@ -10,7 +10,7 @@ import image8 from '../images/product8.jpg';
 const Cards = () => {
   return (
     <div className='card-container'>
-
+<h2>Popular Products</h2>
   <div className='row'>
 
 
@@ -18,8 +18,8 @@ const Cards = () => {
   <div className='card'>
 <img src={image1} className='card-top'/>
 <div className='card-body'>
-<span className='grey'>Instant food</span>
-<p>Salted instant<br/> popcorn</p>
+<span className='grey'>Snack & Munchies</span>
+<p>Haldiram's Sev<br/> Bhujia</p>
  #50<button className='btn btn2'>+ Add</button></div>
       </div>
   </div>
@@ -28,8 +28,8 @@ const Cards = () => {
   <div className='card'>
   <img src={image2} className='card-top'/>
   <div className='card-body'>
-<span className='grey'>Instant food</span>
-<p>Salted instant<br/> popcorn</p>
+<span className='grey'>Bakery & Biscuits</span>
+<p>NutriChoice<br/>Digestive</p>
  #50<button className='btn btn2'>+ Add</button></div>
       </div>
   </div>
@@ -38,8 +38,8 @@ const Cards = () => {
   <div className='card'>
 <img src={image3} className='card-top'/>
 <div className='card-body'>
-<span className='grey'>Instant food</span>
-<p>Salted instant<br/> popcorn</p>
+<span className='grey'>Bakery & Biscuits</span>
+<p>Cadbury 5 Star<br/>Chocolate</p>
  #50<button className='btn btn2'>+ Add</button></div>
       </div>
   </div>
@@ -48,8 +48,8 @@ const Cards = () => {
   <div className='card'>
 <img src={image4} className='card-top'/>
 <div className='card-body'>
-<span className='grey'>Instant food</span>
-<p>Salted instant<br/> popcorn</p>
+<span className='grey'>Snack & Munchies</span>
+<p>Onion Flavour<br/> Potato</p>
  #50<button className='btn btn2'>+ Add</button></div>
       </div>
   </div>
@@ -58,7 +58,7 @@ const Cards = () => {
 <img src={image8} className='card-top'/>
 <div className='card-body'>
 <span className='grey'>Instant food</span>
-<p>Salted instant<br/> popcorn</p>
+<p>Kellogg's Original<br/>Cereals</p>
  #50<button className='btn btn2'>+ Add</button></div>
       </div>
   </div>
@@ -67,8 +67,8 @@ const Cards = () => {
   <div className='card'>
 <img src={image7} className='card-top'/>
 <div className='card-body'>
-<span className='grey'>Instant food</span>
-<p>Salted instant<br/> popcorn</p>
+<span className='grey'>Dairy, Bread & Eggs</span>
+<p>Britannia Cheese<br/> Slices</p>
  #50<button className='btn btn2'>+ Add</button></div>
       </div>
   </div>
@@ -77,8 +77,8 @@ const Cards = () => {
   <div className='card'>
 <img src={image6} className='card-top'/>
 <div className='card-body'>
-<span className='grey'>Instant food</span>
-<p>Salted instant<br/> popcorn</p>
+<span className='grey'>Dairy, Bread & Eggs</span>
+<p>Blueberry Greek<br/> Yogurt</p>
  #50<button className='btn btn2'>+ Add</button></div>
       </div>
   </div>
