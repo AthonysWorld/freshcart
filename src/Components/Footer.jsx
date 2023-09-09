@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footerr">
       
-<div className=" footer-row row">
+<div className="row">
 
 <div className="col-lg-3 col-md-3">
 <h3>10 minute grocery now</h3>
@@ -29,29 +29,7 @@ const Footer = () => {
 </div>
 
 
-<div className="foot row">
-<div className="col-lg-4">
-<h3>Get to know us</h3>
-<p>About</p>
-<p>Blog</p>
-<p>Help Center</p>
-</div>
 
-<div className="col-lg-4">
-<h3>Categories</h3>
-<p>Vegetables & Fruits</p>
-<p>Breakfast & instant food</p>
-<p>Bakery & Biscuits</p>
-</div>
-
-<div className="col-lg-4">
-<h3>Freshcart programs</h3>
-<p>Promos & Coupons</p>
-<p>Freshcart programs</p>
-<p>Gift Cards</p>
-</div>
-<hr/>
-</div>
 
     </div>
   )

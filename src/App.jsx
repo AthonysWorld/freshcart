@@ -4,6 +4,7 @@ import Categories from './Components/Categories';
 import Cards from './Components/Cards';
 import Deals from './Components/Deals'
 import Footer from './Components/Footer';
+import Bottom from './Components/Bottom';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
      <Cards/>
      <Deals/>
      <Footer/>
+     <Bottom/>
     </div>
   )
 }

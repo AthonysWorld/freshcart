@@ -1,7 +1,12 @@
 
-body{
-  padding: 20px;
+.navbar{
+  padding: 5px;
 }
+
+.Slides, .category,.card-container, .Deals, .footerr{
+  margin: 10px;
+}
+
   /* Slides */
   .Slides{
     margin-top: 10px;
@@ -188,7 +193,10 @@ color: #0aad0a;
   padding-top: 10px;
   padding-bottom: 15px;
 }
-.foot{
+.Bottom{
   background-color: grey;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
   /* footer ends */
