@@ -1,5 +1,3 @@
-import image1 from '../images/cofee1.jpg'
-import image2 from '../images/cofee2.jpg'
 
 
 const Slides = () => {

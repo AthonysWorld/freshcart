@@ -1,7 +1,7 @@
-body{
-    padding: 20px;
-  }
 
+body{
+  padding: 20px;
+}
   /* Slides */
   .Slides{
     margin-top: 10px;
@@ -13,43 +13,47 @@ body{
  
   .container1-slides{
     height: 80vh;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/cofee1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/fruits2.jpg);
     background-size: cover;
     color: white;
     padding: 20px;
     padding-top: 50px;
+    border-radius: 15px;
   }
   .container2-slides{
     height: 80vh;
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/cofee2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/fruits3.jpg);
     background-size: cover;
     color: white;
     padding: 20px;
+    border-radius: 15px;
     padding-top: 50px;
   }
   .btn1{
-    background-color: #33b249;
+    background-color: #0aad0a;
     color: white;
   }
   .slide-span{
-color: #33b249;
+color: #0aad0a;
   }
 
   @media (min-width: 768px) {
     .container1-slides{
       height: 80vh;
-      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/cofee1.jpg);
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/fruits2.jpg);
       background-size:cover;
       background-repeat: no-repeat;
       padding: 20px;
+      border-radius: 15px;
       padding-left: 50px;
       padding-top: 150px;
       font-size: 4rem;
     }
     .container2-slides{
       height: 80vh;
-      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/cofee2.jpg);
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/fruits3.jpg);
       background-size: cover;
+      border-radius: 15px;
       padding: 20px;
       padding-top: 50px;
       padding-top: 150px;
@@ -119,7 +123,7 @@ color: #33b249;
   margin-bottom: 20px;
 }
 .btn2{
-    background-color: #33b249;
+    background-color: #0aad0a;
     color: white;
     margin-left: 180px;
     margin-bottom: 5px;
@@ -129,11 +133,11 @@ color: #33b249;
   margin-right: 2px;
   
   margin-bottom: 5px;
-  background-color: #33b249;
+  background-color: #0aad0a;
     color: white;
 }
 .btn1:hover, .btn2:hover, .btn3:hover{
-  background-color: #33b249;
+  background-color: #0aad0a;
     color: white;
 }
 .grey{
@@ -147,3 +151,44 @@ color: #33b249;
 
 }
   /* CARD ENDS */
+
+  /* coffee-container */
+ 
+.coffee-container{
+  border-radius: 20px;
+    text-align: left;
+    height: 500px;
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/cofee1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+    margin-top: 20px; 
+}
+.Deals{
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .coffee-container{
+    margin-right: 50px;
+  }  
+  .Deals{
+    padding-left: 40px;
+  }
+}
+
+  /* coffee-container ENDS */
+
+
+  /* footer */
+.footerr{
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.foot{
+  background-color: grey;
+}
+  /* footer ends */
