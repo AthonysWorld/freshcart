@@ -8,45 +8,52 @@ body{
     margin-bottom: 10px;
   }
   .Slides h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
-  .Slides h4{
-    font-size: 2rem;
-  }
+ 
   .container1-slides{
     height: 80vh;
-    background-image: url(images/cofee1.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/cofee1.jpg);
     background-size: cover;
+    color: white;
     padding: 20px;
     padding-top: 50px;
   }
   .container2-slides{
     height: 80vh;
-    background-image: url(images/cofee2.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/cofee2.jpg);
     background-size: cover;
+    color: white;
     padding: 20px;
     padding-top: 50px;
   }
   .btn1{
-    background-color: black;
+    background-color: #33b249;
     color: white;
+  }
+  .slide-span{
+color: #33b249;
   }
 
   @media (min-width: 768px) {
     .container1-slides{
       height: 80vh;
-      background-image: url(images/cofee1.jpg);
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/cofee1.jpg);
       background-size:cover;
       background-repeat: no-repeat;
       padding: 20px;
-      padding-top: 50px;
+      padding-left: 50px;
+      padding-top: 150px;
+      font-size: 4rem;
     }
     .container2-slides{
       height: 80vh;
-      background-image: url(images/cofee2.jpg);
+      background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/cofee2.jpg);
       background-size: cover;
       padding: 20px;
       padding-top: 50px;
+      padding-top: 150px;
+      font-size: 3.5rem;
     }
   }
   /* Slides end */
@@ -65,10 +72,12 @@ body{
 }
   .category1{
     height: 300px;
-    background-image: url(images/fruits.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/fruits.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
     padding: 20px;
+    padding-top: 50px;
     text-align: left;
     margin-bottom: 40px;
     margin-top: 20px;
@@ -79,20 +88,19 @@ body{
     border-radius: 20px;
     height: 300px;
     text-align: left;
-    background-image: url(images/buns.jpg);
+    background-image:linear-gradient( rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/buns.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    color: white;
     padding: 20px;
+    padding-top: 50px;
     margin-bottom: 40px;
     margin-top: 20px;
-    font-size: 2.5rem;
   }
 .category h2{
-    font-size: 2.5rem;
-}
-.category p{
     font-size: 2rem;
 }
+
 
 @media (min-width: 767px) {
     .category1{
@@ -114,13 +122,26 @@ body{
     background-color: #33b249;
     color: white;
     margin-left: 180px;
+    margin-bottom: 5px;
+}
+.btn3{
+  margin-left: 5px;
+  margin-right: 2px;
+  
+  margin-bottom: 5px;
+  background-color: #33b249;
+    color: white;
+}
+.btn1:hover, .btn2:hover, .btn3:hover{
+  background-color: #33b249;
+    color: white;
 }
 .grey{
     color: grey;
 }
 @media (max-width: 767px) {
   .btn2{
-    margin-left: 10px;
+    margin-left: 20px;
 } 
 
 

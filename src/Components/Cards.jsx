@@ -6,11 +6,12 @@ import image5 from '../images/product5.jpg';
 import image6 from '../images/product6.jpg';
 import image7 from '../images/product7.jpg';
 import image8 from '../images/product8.jpg';
+import Counter from '../Components/Counter';
 
 const Cards = () => {
   return (
     <div className='card-container'>
-<h2>Popular Products</h2>
+<span className='slide-span'><h2>Popular Products</h2></span>
   <div className='row'>
 
 
@@ -20,7 +21,8 @@ const Cards = () => {
 <div className='card-body'>
 <span className='grey'>Snack & Munchies</span>
 <p>Haldiram's Sev<br/> Bhujia</p>
- #50<button className='btn btn2'>+ Add</button></div>
+ <span className='slide-span'>#50</span></div>
+ <Counter/>
       </div>
   </div>
 
@@ -30,7 +32,7 @@ const Cards = () => {
   <div className='card-body'>
 <span className='grey'>Bakery & Biscuits</span>
 <p>NutriChoice<br/>Digestive</p>
- #50<button className='btn btn2'>+ Add</button></div>
+<span className='slide-span'>#15</span></div><Counter/>
       </div>
   </div>
 
@@ -40,7 +42,8 @@ const Cards = () => {
 <div className='card-body'>
 <span className='grey'>Bakery & Biscuits</span>
 <p>Cadbury 5 Star<br/>Chocolate</p>
- #50<button className='btn btn2'>+ Add</button></div>
+<span className='slide-span'>#25</span></div>
+ <Counter/>
       </div>
   </div>
 
@@ -50,7 +53,8 @@ const Cards = () => {
 <div className='card-body'>
 <span className='grey'>Snack & Munchies</span>
 <p>Onion Flavour<br/> Potato</p>
- #50<button className='btn btn2'>+ Add</button></div>
+<span className='slide-span'>#5</span></div>
+ <Counter/>
       </div>
   </div>
   <div className='col-lg-3 col-6'>
@@ -59,7 +63,8 @@ const Cards = () => {
 <div className='card-body'>
 <span className='grey'>Instant food</span>
 <p>Kellogg's Original<br/>Cereals</p>
- #50<button className='btn btn2'>+ Add</button></div>
+<span className='slide-span'>#40</span></div>
+ <Counter/>
       </div>
   </div>
 
@@ -69,7 +74,8 @@ const Cards = () => {
 <div className='card-body'>
 <span className='grey'>Dairy, Bread & Eggs</span>
 <p>Britannia Cheese<br/> Slices</p>
- #50<button className='btn btn2'>+ Add</button></div>
+<span className='slide-span'>#10</span></div>
+ <Counter/>
       </div>
   </div>
 
@@ -79,7 +85,8 @@ const Cards = () => {
 <div className='card-body'>
 <span className='grey'>Dairy, Bread & Eggs</span>
 <p>Blueberry Greek<br/> Yogurt</p>
- #50<button className='btn btn2'>+ Add</button></div>
+<span className='slide-span'>#45</span></div>
+ <Counter/>
       </div>
   </div>
 
@@ -89,7 +96,8 @@ const Cards = () => {
 <div className='card-body'>
 <span className='grey'>Instant food</span>
 <p>Salted instant<br/> popcorn</p>
- #50<button className='btn btn2'>+ Add</button></div>
+<span className='slide-span'>#30</span></div>
+ <Counter/>
       </div>
   </div>
 

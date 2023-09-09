@@ -5,7 +5,7 @@ import image2 from '../images/cofee2.jpg'
 const Slides = () => {
   return (
     <div className='Slides'>
-    <span><h2>Featured pets</h2></span>
+   
     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item carousel-item active">
@@ -13,8 +13,8 @@ const Slides = () => {
     
     
     <div className='container1-slides'>
-    <h1>Hello and welcome to FreshCart</h1>
-   <h4>Your pleasure our delight </h4>
+    <h1>Hello and welcome to <span className='slide-span'>FreshCart</span></h1>
+   <h4>Your <span className='slide-span'>pleasure</span> our <span className='slide-span'>delight</span></h4>
    <button className='btn btn1'>Shop Now</button>
  </div>
     </div>
@@ -24,8 +24,8 @@ const Slides = () => {
     <div className="carousel-item">
     
     <div className='container2-slides'>
-   <h1>Free delivery to any part of the province</h1>
-   <h4>for as low as #50</h4>
+   <h1><span className='slide-span'>Free</span> delivery to any part of the province</h1>
+   <h4>for as low as <span className='slide-span'>#50</span></h4>
    <button className='btn btn1'>Shop Now</button>
     </div>
 

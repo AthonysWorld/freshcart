@@ -3,6 +3,7 @@ import Slides from './Components/Slides';
 import Categories from './Components/Categories';
 import Cards from './Components/Cards';
 
+
 const App = () => {
   return (
     <div>
