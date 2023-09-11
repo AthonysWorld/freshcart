@@ -21,7 +21,7 @@ const Cards = () => {
 <img src={image1} className='card-top'/>
 <div className='card-body'>
 <span className='grey'>Snack & Munchies</span>
-<p>Haldiram's Sev<br/> Bhujia</p>
+<p>Haldiram's</p>
  <span className='slide-span'>#50</span></div>
  <Counter/>
       </div>
@@ -32,7 +32,7 @@ const Cards = () => {
   <img src={image2} className='card-top'/>
   <div className='card-body'>
 <span className='grey'>Bakery & Biscuits</span>
-<p>NutriChoice<br/>Digestive</p>
+<p>NutriChoice</p>
 <span className='slide-span'>#15</span></div><Counter/>
       </div>
   </div>
@@ -42,7 +42,7 @@ const Cards = () => {
 <img src={image3} className='card-top'/>
 <div className='card-body'>
 <span className='grey'>Bakery & Biscuits</span>
-<p>Cadbury 5 Star<br/>Chocolate</p>
+<p>Cadbury 5</p>
 <span className='slide-span'>#25</span></div>
  <Counter/>
       </div>
@@ -53,7 +53,7 @@ const Cards = () => {
 <img src={image4} className='card-top'/>
 <div className='card-body'>
 <span className='grey'>Snack & Munchies</span>
-<p>Onion Flavour<br/> Potato</p>
+<p>Onion Flavour</p>
 <span className='slide-span'>#5</span></div>
  <Counter/>
       </div>
@@ -63,7 +63,7 @@ const Cards = () => {
 <img src={image8} className='card-top'/>
 <div className='card-body'>
 <span className='grey'>Instant food</span>
-<p>Kellogg's Original<br/>Cereals</p>
+<p>Kellogg's</p>
 <span className='slide-span'>#40</span></div>
  <Counter/>
       </div>
@@ -73,8 +73,8 @@ const Cards = () => {
   <div className='card'>
 <img src={image7} className='card-top'/>
 <div className='card-body'>
-<span className='grey'>Dairy, Bread & Eggs</span>
-<p>Britannia Cheese<br/> Slices</p>
+<span className='grey'>Dairy & Eggs</span>
+<p>Cheese </p>
 <span className='slide-span'>#10</span></div>
  <Counter/>
       </div>
@@ -84,8 +84,8 @@ const Cards = () => {
   <div className='card'>
 <img src={image6} className='card-top'/>
 <div className='card-body'>
-<span className='grey'>Dairy, Bread & Eggs</span>
-<p>Blueberry Greek<br/> Yogurt</p>
+<span className='grey'>Dairy & Eggs</span>
+<p>Blueberry<br/> Yogurt</p>
 <span className='slide-span'>#45</span></div>
  <Counter/>
       </div>
