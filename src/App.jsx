@@ -7,6 +7,8 @@ import Footer from './Components/Footer';
 import Bottom from './Components/Bottom';
 
 
+
+
 const App = () => {
   return (
     <div>

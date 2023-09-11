@@ -10,12 +10,13 @@ import Counter from '../Components/Counter';
 
 const Cards = () => {
   return (
+    <div >
     <div className='card-container'>
 <span className='slide-span'><h2>Popular Products</h2></span>
-  <div className='row'>
+  <div className='container-fluid row'>
 
 
-  <div className='col-lg-3 col-6'>
+  <div className='container col-lg-3 col-6'>
   <div className='card'>
 <img src={image1} className='card-top'/>
 <div className='card-body'>
@@ -26,7 +27,7 @@ const Cards = () => {
       </div>
   </div>
 
-  <div className='col-lg-3 col-6'>
+  <div className='container col-lg-3 col-6'>
   <div className='card'>
   <img src={image2} className='card-top'/>
   <div className='card-body'>
@@ -36,7 +37,7 @@ const Cards = () => {
       </div>
   </div>
 
-  <div className='col-lg-3 col-6'>
+  <div className='container col-lg-3 col-6'>
   <div className='card'>
 <img src={image3} className='card-top'/>
 <div className='card-body'>
@@ -47,7 +48,7 @@ const Cards = () => {
       </div>
   </div>
 
-  <div className='col-lg-3 col-6'>
+  <div className='container col-lg-3 col-6'>
   <div className='card'>
 <img src={image4} className='card-top'/>
 <div className='card-body'>
@@ -57,7 +58,7 @@ const Cards = () => {
  <Counter/>
       </div>
   </div>
-  <div className='col-lg-3 col-6'>
+  <div className='container col-lg-3 col-6'>
   <div className='card'>
 <img src={image8} className='card-top'/>
 <div className='card-body'>
@@ -68,7 +69,7 @@ const Cards = () => {
       </div>
   </div>
 
-  <div className='col-lg-3 col-6'>
+  <div className='container col-lg-3 col-6'>
   <div className='card'>
 <img src={image7} className='card-top'/>
 <div className='card-body'>
@@ -79,7 +80,7 @@ const Cards = () => {
       </div>
   </div>
 
-  <div className='col-lg-3 col-6'>
+  <div className='container col-lg-3 col-6'>
   <div className='card'>
 <img src={image6} className='card-top'/>
 <div className='card-body'>
@@ -90,7 +91,7 @@ const Cards = () => {
       </div>
   </div>
 
-  <div className='col-lg-3 col-6'>
+  <div className='container col-lg-3 col-6'>
   <div className='card'>
 <img src={image5} className='card-top'/>
 <div className='card-body'>
@@ -100,7 +101,7 @@ const Cards = () => {
  <Counter/>
       </div>
   </div>
-
+</div>
   </div>
   {/* row ends */}
       

@@ -2,6 +2,7 @@
 
 const Slides = () => {
   return (
+    <div>
     <div className='Slides'>
    
     <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
@@ -22,7 +23,7 @@ const Slides = () => {
     <div className="carousel-item">
     
     <div className='container2-slides'>
-   <h1><span className='slide-span'>Free</span> delivery to any part of the province</h1>
+   <h1><span className='slide-span'>Free</span>Shipping to our first time customers only</h1>
    <h4>for as low as <span className='slide-span'>#50</span></h4>
    <button className='btn btn1'>Shop Now</button>
     </div>
@@ -46,7 +47,7 @@ const Slides = () => {
 </div>
 
 
-
+</div>
     </div>
   )
 }

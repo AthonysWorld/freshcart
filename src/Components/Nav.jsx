@@ -3,7 +3,7 @@
 const Nav = () => {
   return (
     <div>
-      <section >
+      
 
       <div className="navbar navbar-expand-lg">
      
@@ -21,7 +21,7 @@ const Nav = () => {
 
              <div className="dropdown">
   <button className="btn btn-nav dropdown-toggle slide-span" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-  Locations
+  Cart
   </button>
   <ul className="dropdown-menu">
     <li><a className="dropdown-item slide-span" href="#">Asaba</a></li>
@@ -32,7 +32,7 @@ const Nav = () => {
          </ul>
      </div>
  </div>
-      </section>
+      
     </div>
    
   )

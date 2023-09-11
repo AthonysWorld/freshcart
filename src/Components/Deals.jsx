@@ -5,6 +5,7 @@ import Counter from '../Components/Counter'
 
 const Deals = () => {
   return (
+      <div>
     <div className='Deals'>
 <h1 className='slide-span'>Daily Best Sales</h1>
       <div className='row'>
@@ -22,7 +23,7 @@ const Deals = () => {
 <span className='grey'>Instant food</span>
 <p>Salted instant<br/> popcorn</p>
 <span className='slide-span'>#30</span></div>
- <Counter/>
+ <button className='btn btn4'>+Add to cart</button>
 </div>
       </div>
 
@@ -33,14 +34,14 @@ const Deals = () => {
 <span className='grey'>Instant food</span>
 <p>Salted instant<br/> popcorn</p>
 <span className='slide-span'>#30</span></div>
- <Counter/>
+<button className='btn btn4'>+Add to cart</button>
 </div>
       </div>
 
       </div>
 
 
-
+</div>
     </div>
   )
 }

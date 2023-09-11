@@ -1,10 +1,23 @@
-
-.navbar{
-  padding: 5px;
+body{
+  margin: 0%;
+  padding: 0%;
+}
+hr{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+.btn:hover{
+  background-color: #0aad0a;
+  color: white;
 }
 
-.Slides, .category,.card-container, .Deals, .footerr{
+.Slides, .category,.card-container, .Deals, .footerr, .navbar{
   margin: 10px;
+  margin-bottom: 20px;
+}
+.Bottom{
+  margin: 0%;
 }
 
   /* Slides */
@@ -123,6 +136,12 @@ color: #0aad0a;
   /* CARDS */
 .card{
     margin-bottom: 30px;
+    
+}
+.btn4{
+  margin: 5px;
+  background-color: #0aad0a;
+    color: white;
 }
 .card-container h2{
   margin-bottom: 20px;
@@ -152,8 +171,14 @@ color: #0aad0a;
   .btn2{
     margin-left: 20px;
 } 
+}
 
-
+@media (min-width: 768px) {
+  .btn2{
+ 
+    position: absolute;
+    left: 0;
+  }
 }
   /* CARD ENDS */
 
@@ -176,14 +201,16 @@ color: #0aad0a;
   padding: 20px;
 }
 @media (min-width: 768px) {
-  .coffee-container{
-    margin-right: 50px;
-  }  
+ 
   .Deals{
     padding-left: 40px;
   }
 }
-
+@media (min-width: 768px) {
+  .coffee-container{
+    margin-right: 100px;
+  }
+}
   /* coffee-container ENDS */
 
 
@@ -198,5 +225,10 @@ color: #0aad0a;
   padding: 10px;
   padding-top: 50px;
   padding-bottom: 20px;
+  color: white;
+}
+.footest{
+  text-align: center;
+  color: white;
 }
   /* footer ends */
