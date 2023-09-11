@@ -18,7 +18,8 @@ hr{
 }
 @media (max-width: 768px) {
   .card-container{
-    margin-left: 20px;
+    margin: 0;
+    margin-left: 15px;
   }
 }
 
