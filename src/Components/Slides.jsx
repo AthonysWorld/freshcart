@@ -25,7 +25,7 @@ const Slides = () => {
     <div className='container2-slides'>
    <h1><span className='slide-span'>Free</span> Shipping to our first time customers only</h1>
    <h4>for as low as <span className='slide-span'>#50</span></h4>
-   <button className='btn btn1'>Shop Now</button>
+   <button className='btn btn1'>Shop Now <FaArrowRight/></button>
     </div>
 
     </div>
