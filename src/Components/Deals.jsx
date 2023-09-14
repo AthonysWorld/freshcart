@@ -2,6 +2,7 @@ import image1 from '../images/daily1.jpg';
 import image2 from '../images/daily2.jpg';
 import image3 from '../images/daily3.jpg';
 import Counter from '../Components/Counter'
+import {FaArrowRight} from 'react-icons/fa'; 
 
 const Deals = () => {
   return (
@@ -13,7 +14,7 @@ const Deals = () => {
       <div className='coffee-container col-lg-4 col-md-4'>
 <h1>100% Organic Coffee</h1>
 <p>Get the best deal before close</p>
-<button className=' btn btn1'>Shop Now</button>
+<button className=' btn btn1'>Shop Now <FaArrowRight/></button>
       </div>
 
       <div className='col-lg-3 col-md-3'>

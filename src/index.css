@@ -2,6 +2,9 @@ body{
   margin: 0%;
   padding: 0%;
 }
+.icons{
+  color: #0aad0a;
+  }
 .Nav-image{
   height: 120px;
   width: 100px;

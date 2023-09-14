@@ -1,4 +1,4 @@
-
+import {FaArrowRight} from 'react-icons/fa'; 
 
 const Slides = () => {
   return (
@@ -14,7 +14,7 @@ const Slides = () => {
     <div className='container1-slides'>
     <h1>Hello and welcome to <span className='slide-span'>FreshCart</span></h1>
    <h4>Your <span className='slide-span'>pleasure</span> our <span className='slide-span'>delight</span></h4>
-   <button className='btn btn1'>Shop Now</button>
+   <button className='btn btn1'>Shop Now <FaArrowRight/></button>
  </div>
     </div>
  
@@ -23,7 +23,7 @@ const Slides = () => {
     <div className="carousel-item">
     
     <div className='container2-slides'>
-   <h1><span className='slide-span'>Free</span>Shipping to our first time customers only</h1>
+   <h1><span className='slide-span'>Free</span> Shipping to our first time customers only</h1>
    <h4>for as low as <span className='slide-span'>#50</span></h4>
    <button className='btn btn1'>Shop Now</button>
     </div>

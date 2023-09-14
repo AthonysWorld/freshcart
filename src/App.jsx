@@ -9,10 +9,12 @@ import Bottom from './Components/Bottom';
 
 
 
+
 const App = () => {
   return (
     <div>
      <Nav/>
+     
      <Slides/>
      <Categories/>
      <Cards/>
