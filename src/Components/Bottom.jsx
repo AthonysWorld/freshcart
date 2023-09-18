@@ -1,9 +1,14 @@
-
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Bottom = () => {
+  useEffect(()=>{
+    Aos.init({duration:1000});
+      }, [])
   return (
     <div>
-      <div className="Bottom container-fluid row">
+      <div className="Bottom container-fluid row" data-aos="zoom-in">
 <div className="container pad col-lg-4">
 <h3>Get to know us</h3>
 <p>About</p>

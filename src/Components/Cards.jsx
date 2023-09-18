@@ -7,13 +7,19 @@ import image6 from '../images/product6.jpg';
 import image7 from '../images/product7.jpg';
 import image8 from '../images/product8.jpg';
 import Counter from '../Components/Counter';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 
 const Cards = () => {
+  useEffect(()=>{
+    Aos.init({duration:2000});
+      }, [])
   return (
     <div >
     <div className='card-container'>
 <span className='slide-span'><h2>Popular Products</h2></span>
-  <div className='container-fluid row'>
+  <div className='container-fluid row' data-aos="zoom-in">
 
 
   <div className='container col-lg-3 col-6'>
